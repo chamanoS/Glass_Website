@@ -18,6 +18,7 @@ h3{
     font-weight: 600;
     opacity: 0.8;
 }
+
 main{
     font-family: "Poppins", sans-serif;
     min-height: 50vh;
@@ -28,9 +29,10 @@ main{
 }
 
 .glass{
+    margin: 30px;
     background: white;
-    min-height: 50vh;
-    width: 60%;
+    min-height: 20vh;
+    width: 70%;
     background: linear-gradient(to right bottom,
                rgba(225, 225,225, 0.7),
                 rgba(225, 225,225, 0.3));
@@ -38,6 +40,9 @@ main{
     z-index: 3;
     backdrop-filter: blur(2rem);
     display: flex;
+}
+.user img{
+    border-radius: 5%;
 }
 .circle1,.circle2{
    background: white;
@@ -51,11 +56,11 @@ main{
 }
 
 .circle1{
-    top: 5%;
-    right: 15%;
+    top: 3%;
+    right: 10%;
 }
 .circle2{
-    bottom: 5%;
+    bottom: -2%;
     left: 10%;
 }
 .dashboard{
@@ -69,11 +74,12 @@ main{
     rgba(225, 225,225, 0.7),
     rgba(225, 225,225, 0.3));
     border-radius: 2rem;
+    padding-top: -30px;
 }
 .link{
     display: flex;
-    margin: 2rem 0rem;
-    padding: 1rem 5rem;
+    margin: 1rem 0rem;
+    padding: 0.5rem 2.5rem;
     align-items:center ;
 }
 .link h2{
@@ -95,7 +101,7 @@ main{
     right: 10%;
 }
 .pro h2{
-    width: 40%;
+    width: 50%;
     color: white;
     font-weight: 600;
 }
@@ -108,12 +114,12 @@ main{
     rgba(225, 225,225, 0.7),
     rgba(225, 225,225, 0.3));
     border: none;
-    width: 50%;
+    width: 30%;
     padding: 0.5rem;
     border-radius: 2rem;
  }
  .games{
-     margin:5rem;
+     margin:2rem;
      display: flex;
      flex-direction: column;
      justify-content: space-evenly;
@@ -124,14 +130,14 @@ main{
     rgba(225, 225,225, 0.8),
     rgba(225, 225,225, 0.3));
     border-radius: 1rem;
-    margin: 2rem 0rem;
-    padding: 2rem;
+    margin: 0.5rem 0rem;
+    padding: 0.5rem;
     box-shadow: 6px 6px 20px rgba(122,122,122,0.212);
     justify-content: space-between;
  }
  .progress{
     background: linear-gradient(to right top, #65dfc9,#6cddeb);
-    width: 100%;
+    width: 80%;
     height: 25%;
     border-radius: 1rem;
     position: relative;
